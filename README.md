@@ -64,6 +64,10 @@ This setup allows users to perform a wide range of operations—from calculation
 ## 4. Video Demonstration
 A walkthrough video showing local model startup and real-time response
 
+https://github.com/user-attachments/assets/e020307f-619a-4f12-a53a-b876dc4a11eb
+
+
+
 ## 5. Conclusion
 
 This project demonstrates how to combine a local LLM with LangChain’s reasoning agent and a lightweight UI like Streamlit to perform autonomous task execution. It highlights the ability to:
@@ -73,11 +77,3 @@ This project demonstrates how to combine a local LLM with LangChain’s reasonin
  - Run everything locally without external APIs
 
  - Provide a seamless user experience
-
-Future improvements may include:
-
- - Real-time web search and summarization APIs
-
- - Persistent multi-turn chat history
-
- - Tool chaining for more complex workflows
