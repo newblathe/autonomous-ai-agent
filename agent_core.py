@@ -83,6 +83,15 @@ agent = initialize_agent(
 
 # Agent Executor
 def run_agent(task: str) -> str:
+    """Executes an autonomous task using the LangChain agent.
+
+    Args:
+        task (str): The natural language input describing the task or query.
+
+    Returns:
+        str: The output generated after reasoning and executing the appropriate tool 
+             (e.g., calculator, summarizer, or search).
+    """
     try:
         result = agent.invoke({"input": task})
         return result.get("output", "Agent did not return a final answer.")
